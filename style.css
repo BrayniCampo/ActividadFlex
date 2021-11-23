@@ -1,0 +1,290 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.inicio{
+    color: rgb(18,147,212);
+}
+
+.nosotros{
+    color: rgb(18,147,212) ;
+}
+.tituloAzul{
+    color: rgb(18,147,212);
+}
+
+.servicios{
+    color: rgb(18,147,212);
+}
+
+.contacto{
+    color: rgb(18,147,212);
+}
+
+header h1{
+    color: white;
+   
+}
+
+header ul{
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30%;
+}
+header ul a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.border{
+    width: 100%;
+    height: 5px;
+    background-color: rgb(18,147,212);
+}
+
+section{
+    display: flex;
+    background: url(images/cabecera.jpg) 1px -200px  ;
+    background-size: cover;
+    height: 400px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section p{
+    font-size: 1.4rem;
+    color: white;
+    text-align: center;
+}
+section h2{
+    font-size: 4rem;
+}
+
+.section2{
+    background-color: black ;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+
+.section2 form{
+    height: 60px;
+    width: 44%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.section2 button{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    width: 19%;
+    height: 40px;
+}
+
+.section2 input{
+    padding: 4px;
+    margin: 1%;
+    height: 20px;
+    font-size: 1rem;
+    width: 50%;
+}
+.espace{
+    height: 40px;
+}
+.section3{
+    height: 400px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-around;
+    width: 96%;
+}
+
+
+.p1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.p1 img{
+    width: 50%;
+}
+.p2 img{
+    width: 50%;
+}
+.p3 img{
+    width: 50%;
+}
+
+.p2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.p3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 10%;
+}
+
+footer{
+    background-color: rgb(18,147,212) ;
+    height: 100px;
+    color: white;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.GranParrafo{
+    display: flex;
+    width: 100%;
+    margin-bottom: 1%;
+    font-size: 21px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.GranParrafo img{
+    width: 105%;
+    background-color: violet;
+}
+
+.parrafo{
+    width: 50%;
+}
+
+.parrafo2{
+    width: 100%;
+}
+.parrafoConColor{
+    background-color:rgb(53, 66, 74);
+    font-size: 21px;
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+.cuadroParrafo{
+    background-color:rgb(53, 66, 74);
+    font-size: 19px;
+    color: white;
+    width: 25%;
+    height: 250px;
+    display: flex;
+    padding: 23px;
+    flex-direction: column;
+}
+
+.principalServi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 910px;
+    
+}
+
+.cajaServicios{
+    width: 50%;
+    
+
+}
+.Diseño{
+    background-color: rgb(230,230,230);
+    border:  rgb(211, 211, 211) solid 3px;
+    padding: 50px;
+    height: 155px;
+    margin-bottom: 1%;
+}
+
+.Desarrollo{
+    background-color: rgb(230,230,230);
+    border:  rgb(211, 211, 211) solid 3px;
+    padding: 50px;
+    height: 155px;
+    margin-bottom: 1%;
+   
+}
+
+.Hosting{
+    background-color: rgb(230,230,230);
+    border:  rgb(211, 211, 211) solid 3px;
+    padding: 50px;
+    height: 155px;
+    margin-bottom: 1%;
+}
+
+.cajaDeContacto{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.formContacto{
+    height: 710px;
+    width: 50%;
+    font-size: 1.2rem;
+
+}
+
+.formContacto input{
+    width: 100%;
+    height: 50px;
+}
+.formContacto textarea{
+    height: 200px;
+    width: 100%;
+}
+.enviar{
+    background-color:orangered;
+    color: white;
+    font-size: 1rem;
+    width: 99%;
+    height: 50px;
+    margin-top: 0.5%;
+}
+
+.cuadroParrafo2{
+    background-color:rgb(53, 66, 74);
+    font-size: 19px;
+    color: white;
+    width: 25%;
+    height: 250px;
+    display: flex;
+    padding: 23px;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.cuadroParrafo2 img{
+    margin-left: -6%;
+    width: 113%;
+    margin-top: 10%;
+    height: 150%;
+}
