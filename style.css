@@ -5,7 +5,7 @@
 }
 header{
     height: 100px;
-    background-color: black;
+    background-color: rgb(36, 40, 43);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -171,7 +171,6 @@ footer{
 
 .GranParrafo img{
     width: 105%;
-    background-color: violet;
 }
 
 .parrafo{
@@ -288,3 +287,215 @@ footer{
     margin-top: 10%;
     height: 150%;
 }
+
+@media (max-width: 1400px) {
+
+    header{
+    font-size: 13px;
+    }
+
+    .section3{
+        font-size: 13px;
+        height: 294px;
+    }
+
+    section h2{
+        font-size: 3rem;
+    }
+
+    section p{
+        font-size: 1.1rem;
+    }
+
+
+}
+
+@media (max-width: 550px) {
+   
+    header {
+        font-size: 12px;
+        background-color: red;
+    }
+    header ul{
+        width: 55%;
+    }
+    
+    header h1{
+        font-size: 16px;
+    }
+
+    section{
+        background: url(images/cabecera.jpg) -65px -600px  ;
+        background-size: cover;
+        height: 300px;
+    }
+    
+    section h2{
+        font-size: 2rem;
+    }
+
+    .section2{
+        font-size: 13px;
+    }
+
+    .section2 form{
+        width: 34%;
+    }
+
+    .section2 input{
+        width: 80%;
+        font-size: 11px;
+    }
+
+    .section2 button{
+        width: 60%;
+    }
+
+    .section3{
+        font-size: 13px;
+        width: 110%;
+    }
+
+    .p1{
+        margin-left: 0%;
+    }
+
+    .GranParrafo{
+        font-size: 15px;
+    }
+
+    .GranParrafo img{
+        height: 120px;
+    }
+
+    .parrafoConColor{
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .cuadroParrafo{
+        font-size: 13px;
+    }
+
+    .cuadroParrafo2{
+        font-size: 13px;
+    }
+
+    .principalServi{
+        height: 980px;
+    }
+
+    .Diseño{
+        height: 190px;
+        font-size: 13px;
+    }
+
+    .Desarrollo{
+        height: 190px;
+        font-size: 13px;
+    }
+
+    .Hosting{
+        height: 190px;
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    header{
+        background-color: purple;
+        font-size: 14px;
+    }
+
+    header h1{
+        font-size: 20px;
+    }
+    header ul{
+        width: 57%;
+    }
+
+    section p{
+        font-size: 18px;
+    }
+    section h2{
+        font-size: 2rem;
+
+    }
+
+    .section2 h2{
+        font-size: 1.3rem;
+    }
+    .section2 input{
+        font-size: 10px;
+        width: 50%;
+    }
+
+    .section2 form{
+        width: 36%;
+    }
+
+    .section2 button{
+        width: 35%;
+    }
+
+    .section3{
+        font-size: 13px;
+        height: 340px;
+    }
+
+    .p1{
+        margin-left: 0%;
+    }
+
+    .p3{
+        margin-right: 0%;
+    }
+
+    .GranParrafo{
+        font-size: 15px;
+    }
+
+    .GranParrafo img{
+        height: 120px;
+    }
+
+    .parrafoConColor{
+        font-size: 15px;
+        width: 93%;
+    }
+
+    .cuadroParrafo{
+        font-size: 15px;
+        height: 300px;
+    }
+
+    .cuadroParrafo2{
+        font-size: 15px;
+        height: 300px;
+    }
+
+    .principalServi{
+        height: 970px;
+    }
+    .Diseño{
+        font-size: 15px;
+        height: 190px;
+    }
+
+    .Desarrollo{
+        font-size: 15px;
+        height: 190px;
+    }
+
+    .Hosting{
+        font-size: 15px;
+        height: 190px;
+    }
+
+
+}
+    
+
+
