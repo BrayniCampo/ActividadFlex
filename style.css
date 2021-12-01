@@ -445,7 +445,7 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: start;
-        height: 830px;
+        height: 820px;
     }
 
     .p1 img{
@@ -486,7 +486,7 @@ footer{
         height: 1550px;
     }
     .Diseño{
-        height: 370px;
+        height: 380px;
     }
 
     .Desarrollo{
