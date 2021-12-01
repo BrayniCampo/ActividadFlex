@@ -409,7 +409,9 @@ footer{
 
 @media (max-width: 500px) {
 
-   
+   header h1{
+       font-size: 1.4rem;
+   }
 
     header ul{
         display: flex;
@@ -424,7 +426,7 @@ footer{
     }
  
     .section2 h2{
-        font-size: 1rem;
+        font-size: 15px;
         color: white;
     }
 
@@ -433,7 +435,7 @@ footer{
     }
 
     .section2 button{
-        width: 49%;
+        width: 53%;
     }
 
     .section3{
@@ -464,29 +466,32 @@ footer{
 
     .cuadroParrafo{
         font-size: 13px;
-        height: 310px;
+        height: 350px;
     }
 
     .cuadroParrafo2{
         font-size: 13px;
+        height: 350px;
     }
 
     .principalServi{
-        height: 1250px;
+        height: 1350px;
     }
     .Diseño{
-        height: 280px;
-    }
-
-    .Desarrollo{
         height: 300px;
     }
 
-    .Hosting{
-        height: 280px;
+    .Desarrollo{
+        height: 320px;
     }
 
-   
+    .Hosting{
+        height: 300px;
+    }
+
+   footer{
+       font-size: 1rem;
+   }
 }
 
     
