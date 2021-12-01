@@ -420,22 +420,25 @@ footer{
         width: 20%;
         font-size: 1rem;
     }
+    section h2{
+        font-size: 15px;
+    }
     
     section p{
         font-size: 13px;
     }
  
     .section2 h2{
-        font-size: 15px;
+        font-size: 13px;
         color: white;
     }
 
     .section2 input{
-        width: 68%;
+        width: 78%;
     }
 
     .section2 button{
-        width: 53%;
+        width: 58%;
     }
 
     .section3{
@@ -478,15 +481,15 @@ footer{
         height: 1350px;
     }
     .Diseño{
-        height: 300px;
+        height: 340px;
     }
 
     .Desarrollo{
-        height: 320px;
+        height: 380px;
     }
 
     .Hosting{
-        height: 300px;
+        height: 340px;
     }
 
    footer{
