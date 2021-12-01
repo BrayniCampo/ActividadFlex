@@ -31,7 +31,7 @@ header{
 
 header h1{
     color: white;
-   
+
 }
 
 header ul{
@@ -227,7 +227,7 @@ footer{
     padding: 50px;
     height: 155px;
     margin-bottom: 1%;
-   
+
 }
 
 .Hosting{
@@ -310,107 +310,17 @@ footer{
 
 }
 
-@media (max-width: 550px) {
-   
-    header {
-        font-size: 12px;
-        background-color: red;
-    }
-    header ul{
-        width: 55%;
-    }
-    
-    header h1{
-        font-size: 16px;
-    }
 
-    section{
-        background: url(images/cabecera.jpg) -65px -600px  ;
-        background-size: cover;
-        height: 300px;
-    }
-    
-    section h2{
-        font-size: 2rem;
-    }
-
-    .section2{
-        font-size: 13px;
-    }
-
-    .section2 form{
-        width: 34%;
-    }
-
-    .section2 input{
-        width: 80%;
-        font-size: 11px;
-    }
-
-    .section2 button{
-        width: 60%;
-    }
-
-    .section3{
-        font-size: 13px;
-        width: 110%;
-    }
-
-    .p1{
-        margin-left: 0%;
-    }
-
-    .GranParrafo{
-        font-size: 15px;
-    }
-
-    .GranParrafo img{
-        height: 120px;
-    }
-
-    .parrafoConColor{
-        width: 90%;
-        font-size: 15px;
-    }
-
-    .cuadroParrafo{
-        font-size: 13px;
-    }
-
-    .cuadroParrafo2{
-        font-size: 13px;
-    }
-
-    .principalServi{
-        height: 980px;
-    }
-
-    .Diseño{
-        height: 190px;
-        font-size: 13px;
-    }
-
-    .Desarrollo{
-        height: 190px;
-        font-size: 13px;
-    }
-
-    .Hosting{
-        height: 190px;
-        font-size: 13px;
-    }
-
-}
 
 @media (max-width: 700px) {
 
     header{
-        background-color: purple;
         font-size: 14px;
     }
 
     header h1{
         font-size: 20px;
+        color: white;
     }
     header ul{
         width: 57%;
@@ -437,7 +347,7 @@ footer{
     }
 
     .section2 button{
-        width: 35%;
+        width: 45%;
     }
 
     .section3{
@@ -477,25 +387,107 @@ footer{
     }
 
     .principalServi{
-        height: 970px;
+        height: 1150px;
     }
     .Diseño{
         font-size: 15px;
-        height: 190px;
+        height: 230px;
     }
 
     .Desarrollo{
         font-size: 15px;
-        height: 190px;
+        height: 280px;
     }
 
     .Hosting{
         font-size: 15px;
-        height: 190px;
+        height: 230px;
     }
 
 
 }
+
+@media (max-width: 500px) {
+
+   
+
+    header ul{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 20%;
+        font-size: 1rem;
+    }
+    
+    section p{
+        font-size: 13px;
+    }
+ 
+    .section2 h2{
+        font-size: 1rem;
+        color: white;
+    }
+
+    .section2 input{
+        width: 68%;
+    }
+
+    .section2 button{
+        width: 49%;
+    }
+
+    .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        height: 900px;
+    }
+
+    .p1 img{
+        width: 35%;
+    }
+    .p2 img{
+        width: 35%;
+    }
+    .p3 img{
+        width: 35%;
+    }
+
+    .GranParrafo{
+        font-size: 13px;        
+    }
+    
+    .parrafoConColor{
+        font-size: 13px;
+        width: 86%;
+    }
+
+    .cuadroParrafo{
+        font-size: 13px;
+    }
+
+    .cuadroParrafo2{
+        font-size: 13px;
+    }
+
+    .principalServi{
+        height: 1250px;
+    }
+    .Diseño{
+        height: 280px;
+    }
+
+    .Desarrollo{
+        height: 300px;
+    }
+
+    .Hosting{
+        height: 280px;
+    }
+
+   
+}
+
     
 
 
