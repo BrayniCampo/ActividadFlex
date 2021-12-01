@@ -421,7 +421,7 @@ footer{
         font-size: 1rem;
     }
     section h2{
-        font-size: 15px;
+        font-size: 18px;
     }
     
     section p{
@@ -445,7 +445,7 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: start;
-        height: 900px;
+        height: 880px;
     }
 
     .p1 img{
@@ -477,8 +477,13 @@ footer{
         height: 350px;
     }
 
+    .cuadroParrafo2 img{
+        width: 120%;
+        height: 180px;
+    }
+
     .principalServi{
-        height: 1450px;
+        height: 1490px;
     }
     .Diseño{
         height: 370px;
